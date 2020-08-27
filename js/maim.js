@@ -9,6 +9,10 @@
       menuItems.forEach(item=>{
         item.classList.remove('active');
       });
+
+      menuItems.forEach(item=>{
+        item.classList.remove('active');
+      });
       clickedItem.classList.add('active');
     });
   });
